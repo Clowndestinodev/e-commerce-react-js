@@ -1,30 +1,23 @@
 import CartWidget from "./CartWidget"
 import "./navbar.scss"
+import { Link } from "react-router-dom"
 
 const NavBar = () => {
     return(
-        <nav className="navbar navbar-expand-lg bg-body-red">
-  <div className="container-flex">
-    <a className="navbar-brand" href="#">Tienda de Juegos
-    </a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Shooters</a>
+        <nav className="brand"> 
+          <Link to="/">Tienda de Juegos</Link>
+      <ul >
+        <li>
+          <Link to="/category/shooters">Shooters</Link>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">RPG</a>
+        <li >
+          <Link to="/category/rpg">Rpg</Link>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Deportes</a>
+        <li >
+          <Link to="/category/deportes">Deportes</Link>
         </li>
         <CartWidget/>
       </ul>
-    </div>
-  </div>
 </nav>
     )
 }
