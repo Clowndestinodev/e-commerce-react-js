@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
     return(
         <nav className="brand"> 
-          <Link to="/">Tienda de Juegos</Link>
+          <Link to="/">God Of Games</Link>
       <ul >
         <li>
           <Link to="/category/shooters">Shooters</Link>
