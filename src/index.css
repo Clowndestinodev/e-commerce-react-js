@@ -5,10 +5,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: aliceblue;
+  color: rgb(14, 15, 15);
 }
 
-body{
+/* body{
   background-image: url('/public/img/background\ juegos.avif')
-}
+} */
 
