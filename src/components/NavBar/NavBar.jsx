@@ -5,16 +5,16 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
     return(
         <nav className="brand"> 
-          <Link to="/">God Of Games</Link>
+          <Link to="/">Tienda De Pipo</Link>
       <ul >
         <li>
-          <Link to="/category/shooters">Shooters</Link>
+          <Link to="/category/Shonen">Shonen</Link>
         </li>
         <li >
-          <Link to="/category/rpg">Rpg</Link>
+          <Link to="/category/Seinen">Seinen</Link>
         </li>
         <li >
-          <Link to="/category/deportes">Deportes</Link>
+          <Link to="/category/Comics">Comics</Link>
         </li>
         <CartWidget/>
       </ul>

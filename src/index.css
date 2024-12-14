@@ -5,10 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(14, 15, 15);
+  color: rgb(230, 221, 221);
 }
 
-/* body{
-  background-image: url('/public/img/background\ juegos.avif')
-} */
-
+body{
+  background-color: black;
+}

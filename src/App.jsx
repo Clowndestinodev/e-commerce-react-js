@@ -15,8 +15,8 @@ function App() {
       <NavBar/>
 
       <Routes>
-      <Route path="/" element={<ItemListContainer greeting={"Bienvenidos a A la tienda de Juegos mas Completa"} />} />
-      <Route path="/category/:idCategory" element={<ItemListContainer greeting={"Bienvenidos a A la tienda de Juegos mas Completa"} />}/>
+      <Route path="/" element={<ItemListContainer greeting={"Bienvenidos a A la tienda De Pipo"} />} />
+      <Route path="/category/:idCategory" element={<ItemListContainer greeting={"Bienvenidos a A la tienda De Pipo"} />}/>
       <Route path="/detail/:idProduct"  element={ <ItemDetailContainer />} />
       <Route path="/cart" element={<Cart/>}/>
       </Routes>

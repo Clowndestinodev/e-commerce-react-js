@@ -1,57 +1,57 @@
 const products =[
     {
         id: "Sho001",
-        name: "Blood West",
+        name: "Demon Slayers",
         description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga incidunt voluptate iste eos? Ipsum nulla quisquam nobis voluptatibus animi laborum, accusamus voluptas, eius deserunt, sint eveniet est! Animi, neque id. ",
         stock: 5,
         price: 20,
-        image: "/img/Bw.webp",
-        category: "shooters" 
+        image: "/img/Kimetsu n1.jpg",
+        category: "shonen" 
     },
     {
         id: "Sho002",
-        name: "Serious Sam 4",
+        name: "My Hero Academy",
         description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga incidunt voluptate iste eos? Ipsum nulla quisquam nobis voluptatibus animi laborum, accusamus voluptas, eius deserunt, sint eveniet est! Animi, neque id. ",
         stock: 5,
         price: 30,
-        image: "/img/ss4.png",
-        category: "shooters" 
+        image: "/img/my-hero-academia-1.jpg",
+        category: "shonen" 
     },
     {
         id: "Rpg001",
-        name: "Baldurs Gate 3",
+        name: "D-Gray Man",
         description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga incidunt voluptate iste eos? Ipsum nulla quisquam nobis voluptatibus animi laborum, accusamus voluptas, eius deserunt, sint eveniet est! Animi, neque id. ",
         stock: 5,
         price: 50,
-        image: "/img/bg3.avif",
+        image: "/img/Dgrayman n1.webp",
         category: "rpg" 
     },
     {
         id: "Rpg002",
-        name: "Divinity Original Sin 2",
+        name: "Vigilante",
         description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga incidunt voluptate iste eos? Ipsum nulla quisquam nobis voluptatibus animi laborum, accusamus voluptas, eius deserunt, sint eveniet est! Animi, neque id. ",
         stock: 5,
         price: 10,
-        image: "/img/dv2.avif",
-        category: "rpg" 
+        image: "/img/vigilante-1.webp",
+        category: "shonen" 
     },
     {
         id: "Dep001",
-        name: "EA FC 25",
+        name: "Slam Dunk",
         description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga incidunt voluptate iste eos? Ipsum nulla quisquam nobis voluptatibus animi laborum, accusamus voluptas, eius deserunt, sint eveniet est! Animi, neque id. ",
         stock: 5,
         price: 50,
-        image: "/img/fifa.webp",
-        category: "deportes" 
+        image: "/img/SLAM-DUNK-1.webp",
+        category: "isekai" 
     },
     {
         id: "Dep002",
-        name: "NBA 2K 25",
+        name: "Saint Seiya",
         description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga incidunt voluptate iste eos? Ipsum nulla quisquam nobis voluptatibus animi laborum, accusamus voluptas, eius deserunt, sint eveniet est! Animi, neque id. ",
         stock: 5,
         price: 40,
-        image: "/img/nba.webp",
-        category: "deportes" 
+        image: "/img/saint seiya n1.webp",
+        category: "shonen" 
     },
 ];
 
